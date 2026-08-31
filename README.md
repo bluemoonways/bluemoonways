@@ -17,7 +17,7 @@ I build AI-powered automation systems that help businesses automate repetitive t
 ## 🛠️ Technologies & Tools
 
 - n8n
-- OpenAI
+- LLM's
 - AI Agents
 - REST APIs
 - Webhooks
