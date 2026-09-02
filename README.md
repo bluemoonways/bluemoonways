@@ -35,10 +35,11 @@ An AI-powered outreach system that automates lead research, email generation, an
 
 **Tech:** n8n | AI | APIs | Gmail | Google Sheets
 
-### 📊 AI Guest Post Tracker
-An automated system for discovering, tracking, and managing guest post opportunities with an interactive dashboard.
+### 👥 Internal Recruitment System
 
-**Tech:** n8n | AI | Webhooks | HTML | JavaScript
+An automated recruitment system designed to streamline candidate screening, evaluation, and hiring workflows.
+
+**Tech:** n8n | AI | AI Agents | Google Sheets | APIs
 
 ### 🧠 AI Agent & Sub-Agent System
 A multi-agent automation system where an AI main agent delegates tasks to specialized sub-agents.
