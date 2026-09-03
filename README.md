@@ -30,10 +30,11 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 📌 Featured Projects
 
-### 🤖 AI Outreach Automation
-An AI-powered outreach system that automates lead research, email generation, and outreach workflows.
+### 🛒 WhatsApp RAG AI Assistant
 
-**Tech:** n8n | AI | APIs | Gmail | Google Sheets
+An AI-powered customer support assistant that answers product, pricing, delivery, returns, and warranty questions through WhatsApp using Retrieval-Augmented Generation (RAG).
+
+**Tech:** n8n | Google Gemini | Pinecone | WhatsApp | RAG
 
 ### 👥 Internal Recruitment System
 
