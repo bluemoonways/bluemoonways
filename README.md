@@ -40,7 +40,7 @@ An AI-powered customer support assistant that answers product, pricing, delivery
 
 An automated recruitment system designed to streamline candidate screening, evaluation, and hiring workflows.
 
-**Tech:** n8n | AI | AI Agents | Google Sheets | APIs | Airtable 
+**Tech:** n8n | AI | AI Agents | Airtable  | APIs 
 
 ### 🧠 AI Agent & Sub-Agent System
 A multi-agent automation system where an AI main agent delegates tasks to specialized sub-agents.
