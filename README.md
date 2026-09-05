@@ -14,6 +14,12 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - 🎯 Lead Generation Automation
 - 📊 Google Sheets & Data Automation
 
+## 🎓 Education
+
+- **[Degree Name]** — [University/Institution Name], [City] · [Year–Year]
+- **[Intermediate / FSc]** — [College Name], [City] · [Year]
+- **[Matriculation]** — [School Name], [City] · [Year]
+
 ## 🛠️ Technologies & Tools
 
 - n8n
