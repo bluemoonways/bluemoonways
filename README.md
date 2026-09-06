@@ -39,22 +39,79 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 📌 Featured Projects
 
-### 🛒 WhatsApp RAG AI Assistant
+> 🔗 Har project ka title click karein — us project ki GitHub repository direct open ho jayegi.
+
+### [🛒 WhatsApp RAG AI Assistant](https://github.com/bluemoonways/WhatsApp-RAG-AI-Assistant-Online-Store)
 
 An AI-powered customer support assistant that answers product, pricing, delivery, returns, and warranty questions through WhatsApp using Retrieval-Augmented Generation (RAG).
 
 **Tech:** n8n | Google Gemini | Pinecone | WhatsApp | RAG
 
-### 👥 Internal Recruitment System
+🔗 **View Project:** [WhatsApp-RAG-AI-Assistant-Online-Store](https://github.com/bluemoonways/WhatsApp-RAG-AI-Assistant-Online-Store)
+
+### [👥 Internal Recruitment System](https://github.com/bluemoonways/internal-recruitment-system)
 
 An automated recruitment system designed to streamline candidate screening, evaluation, and hiring workflows.
 
-**Tech:** n8n | AI | AI Agents | Airtable  | APIs 
+**Tech:** n8n | AI | AI Agents | Airtable | APIs
+
+🔗 **View Project:** [internal-recruitment-system](https://github.com/bluemoonways/internal-recruitment-system)
+
+### [🏥 Healthcare Patient RAG Assistant](https://github.com/bluemoonways/Healthcare-Patient-RAG-Assistant)
+
+AI-powered healthcare assistant that uses RAG to answer patient questions from a healthcare guide.
+
+**Tech:** n8n | Google Gemini | Pinecone | RAG
+
+🔗 **View Project:** [Healthcare-Patient-RAG-Assistant](https://github.com/bluemoonways/Healthcare-Patient-RAG-Assistant)
+
+### [⚖️ Legal Tenancy Agreement RAG](https://github.com/bluemoonways/Legal-Tenancy-Agreement-RAG)
+
+WhatsApp assistant that answers questions from uploaded tenancy agreements and references the relevant clauses.
+
+**Tech:** n8n | RAG | WhatsApp | Vector DB
+
+🔗 **View Project:** [Legal-Tenancy-Agreement-RAG](https://github.com/bluemoonways/Legal-Tenancy-Agreement-RAG)
+
+### [🎯 Lead Intelligence Automation](https://github.com/bluemoonways/lead-intelligence-automation)
+
+AI-powered lead qualification and urgency classification workflow with automated email follow-ups.
+
+**Tech:** n8n | Google Gemini | Google Sheets | Gmail
+
+🔗 **View Project:** [lead-intelligence-automation](https://github.com/bluemoonways/lead-intelligence-automation)
+
+### [🔍 Client Opportunity Discovery](https://github.com/bluemoonways/client-opportunity-discovery)
+
+Discovers business opportunities from client websites and generates personalized automation outreach.
+
+**Tech:** n8n | AI Agents | Web Scraping | Gmail
+
+🔗 **View Project:** [client-opportunity-discovery](https://github.com/bluemoonways/client-opportunity-discovery)
+
+### [🧾 AI Invoice Extraction](https://github.com/bluemoonways/ai-invoice-extraction)
+
+Extracts structured invoice data from PDFs using AI and logs it automatically to Google Sheets.
+
+**Tech:** n8n | Google Gemini | PDF Extraction | Google Sheets
+
+🔗 **View Project:** [ai-invoice-extraction](https://github.com/bluemoonways/ai-invoice-extraction)
+
+### [💸 Expense Categorizer & Budget Alert](https://github.com/bluemoonways/expense-categorizer-budget-alert)
+
+Categorizes expenses with AI, logs them to Google Sheets, and sends Gmail alerts when budget limits are exceeded.
+
+**Tech:** n8n | Google Gemini | Google Sheets | Gmail
+
+🔗 **View Project:** [expense-categorizer-budget-alert](https://github.com/bluemoonways/expense-categorizer-budget-alert)
 
 ### 🧠 AI Agent & Sub-Agent System
+
 A multi-agent automation system where an AI main agent delegates tasks to specialized sub-agents.
 
 **Tech:** n8n | AI Agents | APIs | Webhooks
+
+🔗 **View Project:** [All repositories »](https://github.com/bluemoonways?tab=repositories)
 
 ## 🎯 What I Do
 
