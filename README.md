@@ -39,7 +39,11 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 📌 Featured Projects
 
-> 🔗 Har project ka title click karein — us project ki GitHub repository direct open ho jayegi.
+### 📞 Blue Moon Restaurant Calling Agent
+
+AI-powered restaurant voice agent for handling reservations, menu inquiries, food orders, order management, and restaurant information through natural phone conversations.
+
+Tech: Vapi • Google Apps Script • Google Sheets • AI Voice Agent • Webhooks
 
 ### [🛒 WhatsApp RAG AI Assistant](https://github.com/bluemoonways/WhatsApp-RAG-AI-Assistant-Online-Store)
 
