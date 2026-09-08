@@ -9,10 +9,12 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - 🤖 AI Automation Specialist
 - ⚙️ n8n Workflow Automation
 - 🧠 AI Agents & Multi-Agent Systems
+- 📞 Vapi Voice Calling Agents
 - 🔗 API Integrations & Webhooks
 - 📧 Email & Outreach Automation
 - 🎯 Lead Generation Automation
-- 📊 Google Sheets & Data Automation by APP Script
+- 📊📊 Google Sheets & Apps Script Automation
+  
 
 ## 🛠️ Technologies & Tools
 
