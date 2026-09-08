@@ -14,15 +14,6 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - 🎯 Lead Generation Automation
 - 📊 Google Sheets & Data Automation
 
-## 🎓 Education
-
-| Degree / Specialization | Institute | Year | GPA / Details |
-| :--- | :--- | :---: | :--- |
-| **Specialization — AI Automation** | SEP. FGRF | August 2026 | 3-month Course |
-| **Specialization — Finance** | Virtual University, Lahore, Pakistan | March 2019 | GPA 3.89/4.00 |
-| **MBA (HRM)** | Virtual University, Lahore, Pakistan | March 2012 | GPA 3.12/4.00 |
-| **Bachelor of Commerce (Accounting & Finance)** | University of Sargodha, Pakistan | February 2009 | 888/1500 Marks |
-
 ## 🛠️ Technologies & Tools
 
 - n8n
@@ -93,11 +84,15 @@ Categorizes expenses with AI, logs them to Google Sheets, and sends Gmail alerts
 
 **Tech:** n8n | Google Gemini | Google Sheets | Gmail
 
-### 🧠 AI Agent & Sub-Agent System
 
-A multi-agent automation system where an AI main agent delegates tasks to specialized sub-agents.
+## 🎓 Education
 
-**Tech:** n8n | AI Agents | APIs | Webhooks
+| Degree / Specialization | Institute | Year | GPA / Details |
+| :--- | :--- | :---: | :--- |
+| **Specialization — AI Automation** | SEP. FGRF | August 2026 | 3-month Course |
+| **Specialization — Finance** | Virtual University, Lahore, Pakistan | March 2019 | GPA 3.89/4.00 |
+| **MBA (HRM)** | Virtual University, Lahore, Pakistan | March 2012 | GPA 3.12/4.00 |
+| **Bachelor of Commerce (Accounting & Finance)** | University of Sargodha, Pakistan | February 2009 | 888/1500 Marks |
 
 ## 🎯 What I Do
 
