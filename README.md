@@ -31,7 +31,6 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - Vercel
 - Vapi calling Agents
 - Google App Script
-- 
 
 ## 📌 Featured Projects
 
