@@ -29,8 +29,9 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - HTML
 - GitHub
 - Vercel
-- calling Agents
+- Vapi calling Agents
 - Google App Script
+- 
 
 ## 📌 Featured Projects
 
