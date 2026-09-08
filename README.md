@@ -13,7 +13,7 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - 🔗 API Integrations & Webhooks
 - 📧 Email & Outreach Automation
 - 🎯 Lead Generation Automation
-- 📊📊 Google Sheets & Apps Script Automation
+- 📊 Google Sheets & Apps Script Automation
   
 
 ## 🛠️ Technologies & Tools
