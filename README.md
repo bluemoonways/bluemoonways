@@ -96,19 +96,8 @@ Categorizes expenses with AI, logs them to Google Sheets, and sends Gmail alerts
 
 ## 🎯 What I Do
 
-I help businesses reduce manual work by connecting AI, automation tools, APIs, and business processes into intelligent workflows.
+I help businesses reduce manual work by connecting AI, automation tools, APIs, and business processes into intelligent workflows. Design Calling Agents for user Business
 
-## 📫 Let's Connect
-
-I'm open to opportunities in:
-
-- AI Automation
-- n8n Automation
-- AI Agents
-- Workflow Automation
-- API Integration
-- Lead Generation Automation
-
----
+### 📫 contact us: <a href="https://wa.me/923002120566"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/whatsapp-logo.png" width="30" alt="WhatsApp" style="position: relative; top: 2px;"></a>   <a href="https://www.linkedin.com/in/faheem-abbas-ai-automation-specialist/"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/linkedin-logo.png" width="30" alt="LinkedIn" style="position: relative; top: 2px;"></a>
 
 ⭐ Thanks for visiting my profile!
