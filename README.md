@@ -39,7 +39,7 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 📌 Featured Projects
 
-### 📞 Blue Moon Restaurant Calling Agent
+### [📞 Blue Moon Restaurant Calling Agent](https://github.com/bluemoonways/blue-moon-restaurant-voice-agent)
 
 AI-powered restaurant voice agent for handling reservations, menu inquiries, food orders, order management, and restaurant information through natural phone conversations.
 
