@@ -1,6 +1,6 @@
 # Hi, I'm Faheem Abbas 👋
 
-### AI Automation Specialist | n8n | AI Agents | Workflow Automation
+### AI Automation Specialist | n8n | AI Agents | Workflow Automation | Calling Agents
 
 I build AI-powered automation systems that help businesses automate repetitive tasks, streamline workflows, and improve productivity.
 
