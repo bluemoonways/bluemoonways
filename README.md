@@ -25,19 +25,22 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 🛠️ Technologies & Tools
 
-- n8n
-- LLM's
-- AI Agents
-- REST APIs
-- Webhooks
-- Google Sheets
-- Gmail
-- JavaScript
-- HTML
-- GitHub
-- Vercel
-- Vapi calling Agents
-- Google App Script
+- ⚙️ n8n
+- 🧠 Google Gemini
+- 🤖 AI Agents & LLMs
+- 📞 Vapi Voice AI
+- 💬 WhatsApp
+- 🗂️ Google Sheets
+- 📜 Google Apps Script
+- 📧 Gmail
+- 🗃️ Airtable
+- 📌 Pinecone
+- 🔗 REST APIs
+- 🌐 Webhooks
+- 📄 PDF & Document Processing
+- 💻 JavaScript
+- 🗄️ Data & Spreadsheet Automation
+- 🔄 Workflow Automation
 
 ## 🎓 Education
 
