@@ -4,16 +4,20 @@
 
 I build AI-powered automation systems that help businesses automate repetitive tasks, streamline workflows, and improve productivity.
 
-## 🚀 About Me
+## 🚀 What I Build
 
-- 🤖 AI Automation Specialist
+- 🤖 AI Automation Systems
 - ⚙️ n8n Workflow Automation
 - 🧠 AI Agents & Multi-Agent Systems
-- 📞 Vapi Voice Calling Agents
-- 🔗 API Integrations & Webhooks
+- 📞 AI Voice & Calling Agents
+- 💬 WhatsApp Automation & AI Assistants
+- 🔍 RAG-Based AI Assistants
 - 📧 Email & Outreach Automation
-- 🎯 Lead Generation Automation
-- 📊 Google Sheets & Apps Script Automation
+- 🎯 Lead Generation & Lead Intelligence Automation
+- 🌐 API Integrations & Webhooks
+- 📊 Google Sheets & Google Apps Script Automation
+- 🔄 Business Process Automation
+- 🏢 Custom AI-Powered Business Solutions
   
 
 ## 🛠️ Technologies & Tools
@@ -32,63 +36,6 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - Vapi calling Agents
 - Google App Script
 
-## 📌 Featured Projects
-
-### [📞 Blue Moon Restaurant Calling Agent](https://github.com/bluemoonways/blue-moon-restaurant-voice-agent)
-
-AI-powered restaurant voice agent for handling reservations, menu inquiries, food orders, order management, and restaurant information through natural phone conversations.
-
-Tech: Vapi • Google Apps Script • Google Sheets • AI Voice Agent • Webhooks
-
-### [🛒 WhatsApp RAG AI Assistant](https://github.com/bluemoonways/WhatsApp-RAG-AI-Assistant-Online-Store)
-
-An AI-powered customer support assistant that answers product, pricing, delivery, returns, and warranty questions through WhatsApp using Retrieval-Augmented Generation (RAG).
-
-**Tech:** n8n | Google Gemini | Pinecone | WhatsApp | RAG
-
-### [👥 Internal Recruitment System](https://github.com/bluemoonways/internal-recruitment-system)
-
-An automated recruitment system designed to streamline candidate screening, evaluation, and hiring workflows.
-
-**Tech:** n8n | AI | AI Agents | Airtable | APIs
-
-### [🏥 Healthcare Patient RAG Assistant](https://github.com/bluemoonways/Healthcare-Patient-RAG-Assistant)
-
-AI-powered healthcare assistant that uses RAG to answer patient questions from a healthcare guide.
-
-**Tech:** n8n | Google Gemini | Pinecone | RAG
-
-### [⚖️ Legal Tenancy Agreement RAG](https://github.com/bluemoonways/Legal-Tenancy-Agreement-RAG)
-
-WhatsApp assistant that answers questions from uploaded tenancy agreements and references the relevant clauses.
-
-**Tech:** n8n | RAG | WhatsApp | Vector DB
-
-### [🎯 Lead Intelligence Automation](https://github.com/bluemoonways/lead-intelligence-automation)
-
-AI-powered lead qualification and urgency classification workflow with automated email follow-ups.
-
-**Tech:** n8n | Google Gemini | Google Sheets | Gmail
-
-### [🔍 Client Opportunity Discovery](https://github.com/bluemoonways/client-opportunity-discovery)
-
-Discovers business opportunities from client websites and generates personalized automation outreach.
-
-**Tech:** n8n | AI Agents | Web Scraping | Gmail
-
-### [🧾 AI Invoice Extraction](https://github.com/bluemoonways/ai-invoice-extraction)
-
-Extracts structured invoice data from PDFs using AI and logs it automatically to Google Sheets.
-
-**Tech:** n8n | Google Gemini | PDF Extraction | Google Sheets
-
-### [💸 Expense Categorizer & Budget Alert](https://github.com/bluemoonways/expense-categorizer-budget-alert)
-
-Categorizes expenses with AI, logs them to Google Sheets, and sends Gmail alerts when budget limits are exceeded.
-
-**Tech:** n8n | Google Gemini | Google Sheets | Gmail
-
-
 ## 🎓 Education
 
 | Degree / Specialization | Institute | Year | GPA / Details |
@@ -102,7 +49,24 @@ Categorizes expenses with AI, logs them to Google Sheets, and sends Gmail alerts
 
 I help businesses reduce manual work by connecting AI, automation tools, APIs, and business processes into intelligent workflows. Design Calling Agents for user Business.
 
-### 📫 Contact Us:
+## 📞 Contact Me:
 
-<a href="https://wa.me/923002120566"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/whatsapp-logo.png" width="30" alt="WhatsApp" style="position: relative; top: 2px;"></a>       <a href="https://www.linkedin.com/in/faheem-abbas-ai-automation-specialist/"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/linkedin-logo.png" width="30" alt="LinkedIn" style="position: relative; top: 2px;"></a>
+**Faheem Abbas**
 
+AI Automation Specialist | n8n Expert | AI Agents | AI-Powered Business Automation | Lead Generation | API Integrations | Calling Agents
+
+For custom implementation or commercial use, please <strong>Contact on:</strong>
+<br><br>
+<a href="https://wa.me/923002120566">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+</a>
+  <a href="https://www.linkedin.com/in/faheem-abbas-ai-automation-specialist/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+  <a href="mailto:info.bluemoonways@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+
+
+
+**#AI #AIAutomation #n8n #RAG #airtable #Pinecone #WhatsAppAutomation #Qdrant #AIEngineering #CallingAgents #bluemoonways**
