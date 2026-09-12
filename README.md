@@ -6,19 +6,22 @@ I build AI-powered automation systems that help businesses automate repetitive t
 
 ## 🚀 What I Build
 
-- 🤖 AI Automation Systems
+- 🤖 AI-Powered Business Automation
 - ⚙️ n8n Workflow Automation
-- 🧠 AI Agents & Multi-Agent Systems
+- 🧠 AI Agents & Intelligent Workflows
 - 📞 AI Voice & Calling Agents
-- 💬 WhatsApp Automation & AI Assistants
-- 🔍 RAG-Based AI Assistants
+- 💬 WhatsApp AI Assistants & Automation
+- 🔍 RAG-Based Knowledge Assistants
+- 🎯 Lead Generation & Lead Intelligence Systems
+- 🔎 Client Opportunity Discovery & Outreach Automation
+- 📄 AI Document & Invoice Processing
+- 💰 Expense Management & Financial Automation
+- 📊 Budget Monitoring & Automated Alerts
+- 👥 Recruitment & Candidate Screening Automation
 - 📧 Email & Outreach Automation
-- 🎯 Lead Generation & Lead Intelligence Automation
-- 🌐 API Integrations & Webhooks
-- 📊 Google Sheets & Google Apps Script Automation
-- 🔄 Business Process Automation
-- 🏢 Custom AI-Powered Business Solutions
-  
+- 🔗 API Integrations & Webhooks
+- 📈 Google Sheets & Google Apps Script Automation
+- 🏢 Custom AI Solutions for Business Processes
 
 ## 🛠️ Technologies & Tools
 
