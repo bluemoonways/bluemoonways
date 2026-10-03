@@ -4,6 +4,12 @@
 
 I build AI-powered automation systems that help businesses automate repetitive tasks, streamline workflows, and improve productivity.
 
+## 🎯 What I Do
+
+I help businesses reduce manual work by connecting AI, automation tools, APIs, and business processes into intelligent workflows. I also design calling agents for business operations.
+
+The work below is what I have built and published. Each project uses the tools listed with it.
+
 ## 🚀 What I Build
 
 - 🤖 AI-Powered Business Automation
@@ -19,27 +25,40 @@ I build AI-powered automation systems that help businesses automate repetitive t
 - 📊 Budget Monitoring & Automated Alerts
 - 👥 Recruitment & Candidate Screening Automation
 - 📧 Email & Outreach Automation
+- 📣 LinkedIn & Facebook Publishing Automation
 - 🔗 API Integrations & Webhooks
 - 📈 Google Sheets & Google Apps Script Automation
 - 🏢 Custom AI Solutions for Business Processes
 
 ## 🛠️ Technologies & Tools
 
+Tools used across the published projects:
+
 - ⚙️ n8n
 - 🧠 Google Gemini
-- 🤖 AI Agents & LLMs
+- ✨ Gemini Embeddings
+- 🤖 OpenAI
+- 🧠 AI Agents
+- 🔍 RAG
+- 📌 Pinecone
+- 🧩 Structured Output
+- 💬 WhatsApp API
 - 📞 Vapi Voice AI
-- 💬 WhatsApp
+- 📧 Gmail
 - 🗂️ Google Sheets
 - 📜 Google Apps Script
-- 📧 Gmail
+- 🖼️ Google Drive
 - 🗃️ Airtable
-- 📌 Pinecone
+- 💼 LinkedIn API
+- 📘 Facebook Graph API
+- 🔐 OAuth 2.0
 - 🔗 REST APIs
 - 🌐 Webhooks
+- 🌍 HTTP Requests & HTML Extract
 - 📄 PDF & Document Processing
 - 💻 JavaScript
-- 🗄️ Data & Spreadsheet Automation
+- 🎨 HTML / CSS
+- 🐙 GitHub & GitHub Pages
 - 🔄 Workflow Automation
 
 ## 🎓 Education
@@ -50,10 +69,6 @@ I build AI-powered automation systems that help businesses automate repetitive t
 | **Specialization — Finance** | Virtual University, Lahore, Pakistan | March 2019 | GPA 3.89/4.00 |
 | **MBA (HRM)** | Virtual University, Lahore, Pakistan | March 2012 | GPA 3.12/4.00 |
 | **Bachelor of Commerce (Accounting & Finance)** | University of Sargodha, Pakistan | February 2009 | 888/1500 Marks |
-
-## 🎯 What I Do
-
-I help businesses reduce manual work by connecting AI, automation tools, APIs, and business processes into intelligent workflows. Design Calling Agents for user Business.
 
 ## 👨‍💻 Author
 
