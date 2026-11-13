@@ -22,23 +22,53 @@
     /* stats-3col: three hero stats instead of four */
     .stats { grid-template-columns: repeat(3, 1fr); }
 
-    /* Compact 3-column category list in About section */
+    /* Tighten spacing below the centered intro paragraph */
+    #about .about-lead {
+      max-width: 780px;
+      margin: 0 auto 2rem auto;
+    }
+
+    /* Unified, clean executive panel for the 3 capability columns */
     .about-categories {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2rem 2.5rem;
-      margin-top: 2.5rem;
-      padding-top: 2rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      gap: 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 2.25rem;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+      text-align: left;
     }
+
+    .about-cat:not(:last-child) {
+      border-right: 1px solid #e2e8f0;
+      padding-right: 1.75rem;
+    }
+
     .about-cat h3 {
-      font-size: 1.05rem;
-      font-weight: 600;
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: #0f172a;
       margin-bottom: 1rem;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.6rem;
     }
+
+    .about-cat h3 span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: rgba(37, 99, 235, 0.08);
+      font-size: 1rem;
+    }
+
     .about-cat ul {
       list-style: none;
       padding: 0;
@@ -47,24 +77,34 @@
       flex-direction: column;
       gap: 0.7rem;
     }
+
     .about-cat li {
       position: relative;
-      padding-left: 1.35rem;
-      font-size: 0.95rem;
-      opacity: 0.85;
+      padding-left: 1.4rem;
+      font-size: 0.93rem;
+      color: #475569;
       line-height: 1.45;
     }
+
     .about-cat li::before {
       content: "✓";
       position: absolute;
       left: 0;
       font-weight: 700;
-      color: var(--accent, #38bdf8);
+      color: #2563eb;
     }
+
     @media (max-width: 900px) {
       .about-categories {
         grid-template-columns: 1fr;
-        gap: 1.75rem;
+        gap: 1.5rem;
+        padding: 1.5rem;
+      }
+      .about-cat:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+        padding-right: 0;
+        padding-bottom: 1.5rem;
       }
     }
   </style>
