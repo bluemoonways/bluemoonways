@@ -18,8 +18,55 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <style>/* stats-3col: three hero stats instead of four */
+  <style>
+    /* stats-3col: three hero stats instead of four */
     .stats { grid-template-columns: repeat(3, 1fr); }
+
+    /* Compact 3-column category list in About section */
+    .about-categories {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem 2.5rem;
+      margin-top: 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .about-cat h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .about-cat ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+    .about-cat li {
+      position: relative;
+      padding-left: 1.35rem;
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.45;
+    }
+    .about-cat li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+      color: var(--accent, #38bdf8);
+    }
+    @media (max-width: 900px) {
+      .about-categories {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -129,52 +176,33 @@
           accuracy, accountability, and scale.
         </p>
 
-        <div class="about-grid">
-          <article class="about-card reveal">
-            <span class="about-icon">⚙️</span>
-            <h3>n8n Workflow Automation</h3>
-            <p>End-to-end business workflows designed, built and monitored in n8n.</p>
-          </article>
-          <article class="about-card reveal delay-1">
-            <span class="about-icon">🧠</span>
-            <h3>AI Agents</h3>
-            <p>Gemini and OpenAI agents that classify, extract, and answer from the business data in the workflow.</p>
-          </article>
-          <article class="about-card reveal delay-2">
-            <span class="about-icon">🔗</span>
-            <h3>API Integrations &amp; Webhooks</h3>
-            <p>Connecting apps, services and data sources into one automated pipeline.</p>
-          </article>
-          <article class="about-card reveal">
-            <span class="about-icon">📞</span>
-            <h3>Vapi Voice Calling Agents</h3>
-            <p>AI-powered voice agents for natural customer calls, reservations and business operations.</p>
-          </article>
-          <article class="about-card reveal delay-1">
-            <span class="about-icon">📧</span>
-            <h3>Email &amp; Outreach Automation</h3>
-            <p>Personalized outreach sequences that run on autopilot.</p>
-          </article>
-          <article class="about-card reveal delay-2">
-            <span class="about-icon">🎯</span>
-            <h3>Lead Generation Automation</h3>
-            <p>AI-assisted pipelines that find, enrich and qualify leads automatically.</p>
-          </article>
-          <article class="about-card reveal">
-            <span class="about-icon">📊</span>
-            <h3>Google Sheets &amp; Apps Script Automation</h3>
-            <p>Live dashboards and data flows without a single manual copy-paste.</p>
-          </article>
-          <article class="about-card reveal delay-1">
-            <span class="about-icon">💬</span>
-            <h3>WhatsApp AI Assistants</h3>
-            <p>Expense entry, customer support, and document questions handled inside WhatsApp.</p>
-          </article>
-          <article class="about-card reveal delay-2">
-            <span class="about-icon">🔍</span>
-            <h3>RAG Knowledge Assistants</h3>
-            <p>PDF guides, store policies, and agreements turned into grounded answers with Pinecone.</p>
-          </article>
+        <div class="about-categories">
+          <div class="about-cat reveal">
+            <h3><span>⚙️</span> Core AI &amp; Workflows</h3>
+            <ul>
+              <li>n8n Workflow Automation</li>
+              <li>AI Agents (Gemini &amp; OpenAI)</li>
+              <li>RAG Knowledge Assistants</li>
+            </ul>
+          </div>
+
+          <div class="about-cat reveal delay-1">
+            <h3><span>💬</span> Voice, Chat &amp; Outreach</h3>
+            <ul>
+              <li>Vapi Voice Calling Agents</li>
+              <li>WhatsApp AI Assistants</li>
+              <li>Lead Gen &amp; Email Outreach</li>
+            </ul>
+          </div>
+
+          <div class="about-cat reveal delay-2">
+            <h3><span>📊</span> Data, APIs &amp; Controls</h3>
+            <ul>
+              <li>Google Sheets &amp; Apps Script</li>
+              <li>API Integrations &amp; Webhooks</li>
+              <li>Audit &amp; Finance Data Flows</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
