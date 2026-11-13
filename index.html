@@ -126,28 +126,7 @@
       color: #2563eb;
     }
 
-    /* 4. Skills Section: Enclosed in a matching white card inside .container */
-    #skills .skills-wrap {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.75rem;
-      width: 100%;
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 2.25rem;
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
-    }
-
-    #skills .skill {
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-    }
-
-    /* 5. Projects Grid: Equal height cards & bottom-aligned action links */
+    /* 4. Projects Grid: Equal height cards & bottom-aligned action links */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -174,6 +153,27 @@
       margin-top: auto;
       padding-top: 1rem;
       border-top: 1px solid #f1f5f9;
+    }
+
+    /* 5. Skills Section: Enclosed in a matching white card inside .container */
+    #skills .skills-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 2.25rem;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+    }
+
+    #skills .skill {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
     }
 
     /* 6. Contact Card: Single clean card matching the exact width & radius above */
@@ -227,8 +227,8 @@
 
       <nav class="nav-links" id="navLinks" aria-label="Primary">
         <a href="#about" class="nav-link">About</a>
-        <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
         <a href="#contact" class="nav-link">Contact</a>
         <a href="https://wa.me/923002120566" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">Hire Me</a>
       </nav>
@@ -284,7 +284,7 @@
       </div>
     </section>
 
-    <!-- ======= About ======= -->
+    <!-- ======= 1. About ======= -->
     <section class="section" id="about">
       <div class="container">
         <div class="section-head reveal">
@@ -331,48 +331,7 @@
       </div>
     </section>
 
-    <!-- ======= Skills ======= -->
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Tech Stack</span>
-          <h2>Tools I <span class="gradient-text">automate with</span></h2>
-        </div>
-
-        <div class="skills-wrap reveal">
-          <span class="skill">n8n</span>
-          <span class="skill">Google Gemini</span>
-          <span class="skill">OpenAI</span>
-          <span class="skill">AI Agents</span>
-          <span class="skill">RAG</span>
-          <span class="skill">Gemini Embeddings</span>
-          <span class="skill">Pinecone</span>
-          <span class="skill">Structured Output</span>
-          <span class="skill">WhatsApp API</span>
-          <span class="skill">Vapi Voice AI</span>
-          <span class="skill">Gmail</span>
-          <span class="skill">Google Sheets</span>
-          <span class="skill">Google Apps Script</span>
-          <span class="skill">Google Drive</span>
-          <span class="skill">Airtable</span>
-          <span class="skill">LinkedIn API</span>
-          <span class="skill">Facebook Graph API</span>
-          <span class="skill">OAuth 2.0</span>
-          <span class="skill">REST APIs</span>
-          <span class="skill">Webhooks</span>
-          <span class="skill">HTTP Requests</span>
-          <span class="skill">HTML Extract</span>
-          <span class="skill">PDF Extraction</span>
-          <span class="skill">JavaScript</span>
-          <span class="skill">HTML / CSS</span>
-          <span class="skill">GitHub</span>
-          <span class="skill">GitHub Pages</span>
-          <span class="skill">Vercel</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Projects ======= -->
+    <!-- ======= 2. Projects ======= -->
     <section class="section" id="projects">
       <div class="container">
         <div class="section-head reveal">
@@ -691,7 +650,48 @@
       </div>
     </section>
 
-    <!-- ======= Contact ======= -->
+    <!-- ======= 3. Skills ======= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Tech Stack</span>
+          <h2>Tools I <span class="gradient-text">automate with</span></h2>
+        </div>
+
+        <div class="skills-wrap reveal">
+          <span class="skill">n8n</span>
+          <span class="skill">Google Gemini</span>
+          <span class="skill">OpenAI</span>
+          <span class="skill">AI Agents</span>
+          <span class="skill">RAG</span>
+          <span class="skill">Gemini Embeddings</span>
+          <span class="skill">Pinecone</span>
+          <span class="skill">Structured Output</span>
+          <span class="skill">WhatsApp API</span>
+          <span class="skill">Vapi Voice AI</span>
+          <span class="skill">Gmail</span>
+          <span class="skill">Google Sheets</span>
+          <span class="skill">Google Apps Script</span>
+          <span class="skill">Google Drive</span>
+          <span class="skill">Airtable</span>
+          <span class="skill">LinkedIn API</span>
+          <span class="skill">Facebook Graph API</span>
+          <span class="skill">OAuth 2.0</span>
+          <span class="skill">REST APIs</span>
+          <span class="skill">Webhooks</span>
+          <span class="skill">HTTP Requests</span>
+          <span class="skill">HTML Extract</span>
+          <span class="skill">PDF Extraction</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">HTML / CSS</span>
+          <span class="skill">GitHub</span>
+          <span class="skill">GitHub Pages</span>
+          <span class="skill">Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 4. Contact ======= -->
     <section class="section" id="contact">
       <div class="container">
         <div class="contact-card reveal">
