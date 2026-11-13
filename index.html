@@ -19,23 +19,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
-    /* stats-3col: three hero stats instead of four */
-    .stats { grid-template-columns: repeat(3, 1fr); }
+    /* =========================================================
+       UNIFIED LAYOUT SYSTEM — Consistent Widths, Cards & Rhythm
+       ========================================================= */
 
-    /* Tighten spacing below the centered intro paragraph */
-    #about .about-lead {
-      max-width: 780px;
-      margin: 0 auto 2rem auto;
+    /* 1. Standardize container & section vertical rhythm */
+    .container {
+      width: 100%;
+      max-width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    /* Unified, clean executive panel for the 3 capability columns */
+    .section {
+      padding: 5.5rem 0;
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin: 0 auto 3rem auto;
+      text-align: center;
+    }
+
+    /* 2. Hero Stats: 3-column uniform grid */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    /* 3. About Section: Match full container width & unified card style */
+    #about .about-lead {
+      max-width: 820px;
+      margin: 0 auto 2.5rem auto;
+      text-align: center;
+      line-height: 1.75;
+    }
+
     .about-categories {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
-      max-width: 960px;
+      width: 100%;
+      max-width: 100%;
       margin: 0 auto;
-      padding: 2rem 2.25rem;
+      padding: 2.25rem;
       background: #ffffff;
       border: 1px solid #e2e8f0;
       border-radius: 16px;
@@ -49,24 +77,25 @@
     }
 
     .about-cat h3 {
-      font-size: 1.02rem;
+      font-size: 1.05rem;
       font-weight: 700;
       color: #0f172a;
-      margin-bottom: 1rem;
+      margin-bottom: 1.1rem;
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.65rem;
     }
 
     .about-cat h3 span {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 32px;
-      height: 32px;
+      width: 34px;
+      height: 34px;
       border-radius: 8px;
       background: rgba(37, 99, 235, 0.08);
       font-size: 1rem;
+      flex-shrink: 0;
     }
 
     .about-cat ul {
@@ -75,15 +104,15 @@
       margin: 0;
       display: flex;
       flex-direction: column;
-      gap: 0.7rem;
+      gap: 0.75rem;
     }
 
     .about-cat li {
       position: relative;
       padding-left: 1.4rem;
-      font-size: 0.93rem;
+      font-size: 0.94rem;
       color: #475569;
-      line-height: 1.45;
+      line-height: 1.5;
     }
 
     .about-cat li::before {
@@ -94,17 +123,88 @@
       color: #2563eb;
     }
 
-    @media (max-width: 900px) {
+    /* 4. Skills Section: Balanced full-container alignment */
+    #skills .skills-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      width: 100%;
+    }
+
+    /* 5. Projects Grid: Equal height cards & bottom-aligned action links */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+      align-items: stretch;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 1.75rem;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+      background: #ffffff;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+    }
+
+    .project-card p {
+      flex-grow: 1;
+      margin-bottom: 1.25rem;
+      line-height: 1.6;
+    }
+
+    .project-card .tags {
+      margin-bottom: 1.25rem;
+    }
+
+    .project-card .project-actions {
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid #f1f5f9;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* 6. Contact Card: Match 16px radius & full container width */
+    .contact-card {
+      width: 100%;
+      border-radius: 16px;
+      padding: 3.5rem 2.25rem;
+    }
+
+    /* 7. Responsive Breakpoints (Consistent across all grids) */
+    @media (max-width: 960px) {
+      .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
       .about-categories {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        padding: 1.5rem;
+        padding: 1.75rem;
       }
       .about-cat:not(:last-child) {
         border-right: none;
         border-bottom: 1px solid #e2e8f0;
         padding-right: 0;
         padding-bottom: 1.5rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .section {
+        padding: 4rem 0;
+      }
+      .stats,
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      .contact-card {
+        padding: 2.5rem 1.5rem;
       }
     }
   </style>
@@ -200,7 +300,7 @@
       </div>
     </section>
 
-    <!-- ======= About ======= -->
+    <!-- ======= About (Light Background) ======= -->
     <section class="section" id="about">
       <div class="container">
         <div class="section-head reveal">
@@ -247,7 +347,7 @@
       </div>
     </section>
 
-    <!-- ======= Skills ======= -->
+    <!-- ======= Skills (Alt Background) ======= -->
     <section class="section section-alt" id="skills">
       <div class="container">
         <div class="section-head reveal">
@@ -288,7 +388,7 @@
       </div>
     </section>
 
-    <!-- ======= Projects ======= -->
+    <!-- ======= Projects (Light Background) ======= -->
     <section class="section" id="projects">
       <div class="container">
         <div class="section-head reveal">
@@ -298,7 +398,7 @@
 
         <div class="projects-grid">
 
-          <!-- EMR Compliance Dashboard (Real Client Project) -->
+          <!-- Row 1, Col 1 -->
           <article class="project-card reveal">
             <div class="project-top">
               <span class="project-emoji">📋</span>
@@ -317,8 +417,8 @@
             </div>
           </article>
 
-          <!-- Salon AI Receptionist -->
-          <article class="project-card reveal">
+          <!-- Row 1, Col 2 -->
+          <article class="project-card reveal delay-1">
             <div class="project-top">
               <span class="project-emoji">💇‍♀️</span>
               <span class="project-type">Voice AI · Salon Booking</span>
@@ -340,8 +440,8 @@
             </div>
           </article>
 
-          <!-- LinkedIn Content Automation System -->
-          <article class="project-card reveal">
+          <!-- Row 1, Col 3 -->
+          <article class="project-card reveal delay-2">
             <div class="project-top">
               <span class="project-emoji">🔗</span>
               <span class="project-type">Social Automation · LinkedIn</span>
@@ -359,10 +459,10 @@
             </div>
           </article>
 
-          <!-- AI-Driven Guest Post Agency Automation -->
-          <article class="project-card reveal delay-1">
+          <!-- Row 2, Col 1 -->
+          <article class="project-card reveal">
             <div class="project-top">
-              <span class="project-emoji">🎯</span>
+              <span class="project-emoji">✍️</span>
               <span class="project-type">SEO · AI Outreach</span>
             </div>
             <h3>AI-Driven Guest Post Agency Automation</h3>
@@ -378,8 +478,8 @@
             </div>
           </article>
 
-          <!-- Facebook Content Automation System -->
-          <article class="project-card reveal delay-2">
+          <!-- Row 2, Col 2 -->
+          <article class="project-card reveal delay-1">
             <div class="project-top">
               <span class="project-emoji">📘</span>
               <span class="project-type">Social Automation · Facebook</span>
@@ -397,8 +497,8 @@
             </div>
           </article>
 
-          <!-- Blue Moon Restaurant Calling Agent -->
-          <article class="project-card reveal">
+          <!-- Row 2, Col 3 -->
+          <article class="project-card reveal delay-2">
             <div class="project-top">
               <span class="project-emoji">📞</span>
               <span class="project-type">Voice AI · Automation</span>
@@ -416,7 +516,7 @@
             </div>
           </article>
 
-          <!-- WhatsApp Expense Management System -->
+          <!-- Row 3, Col 1 -->
           <article class="project-card reveal">
             <div class="project-top">
               <span class="project-emoji">💰</span>
@@ -439,7 +539,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <!-- Row 3, Col 2 -->
+          <article class="project-card reveal delay-1">
             <div class="project-top">
               <span class="project-emoji">🛒</span>
               <span class="project-type">RAG · WhatsApp</span>
@@ -457,7 +558,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-1">
+          <!-- Row 3, Col 3 -->
+          <article class="project-card reveal delay-2">
             <div class="project-top">
               <span class="project-emoji">👥</span>
               <span class="project-type">HR · Automation</span>
@@ -479,7 +581,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-2">
+          <!-- Row 4, Col 1 -->
+          <article class="project-card reveal">
             <div class="project-top">
               <span class="project-emoji">🏥</span>
               <span class="project-type">Healthcare · RAG</span>
@@ -497,7 +600,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <!-- Row 4, Col 2 -->
+          <article class="project-card reveal delay-1">
             <div class="project-top">
               <span class="project-emoji">⚖️</span>
               <span class="project-type">Legal · RAG</span>
@@ -515,7 +619,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-1">
+          <!-- Row 4, Col 3 -->
+          <article class="project-card reveal delay-2">
             <div class="project-top">
               <span class="project-emoji">🎯</span>
               <span class="project-type">Lead Gen · AI</span>
@@ -533,7 +638,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-2">
+          <!-- Row 5, Col 1 -->
+          <article class="project-card reveal">
             <div class="project-top">
               <span class="project-emoji">🔍</span>
               <span class="project-type">AI Agents · Outreach</span>
@@ -551,7 +657,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <!-- Row 5, Col 2 -->
+          <article class="project-card reveal delay-1">
             <div class="project-top">
               <span class="project-emoji">🧾</span>
               <span class="project-type">Data · AI</span>
@@ -573,7 +680,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-1">
+          <!-- Row 5, Col 3 -->
+          <article class="project-card reveal delay-2">
             <div class="project-top">
               <span class="project-emoji">💸</span>
               <span class="project-type">Finance · AI</span>
@@ -599,8 +707,8 @@
       </div>
     </section>
 
-    <!-- ======= Contact ======= -->
-    <section class="section" id="contact">
+    <!-- ======= Contact (Alt Background — completes Light/Alt alternation) ======= -->
+    <section class="section section-alt" id="contact">
       <div class="container">
         <div class="contact-card reveal">
           <div class="hero-bg" aria-hidden="true">
@@ -643,7 +751,8 @@
 
   <!-- Floating WhatsApp -->
   <a href="https://wa.me/923002120566" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
-    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
   </a>
 
   <script src="assets/js/main.js"></script>
